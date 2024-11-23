@@ -1,0 +1,38 @@
+﻿@model IEnumerable<inventory_management_system.Models.Item>
+
+@{
+    ViewData["Title"] = "POS - Point of Sale";
+}
+
+<h2>POS System</h2>
+
+<form method="post" action="@Url.Action("ProcessTransaction", "POS")">
+    <div class="form-group">
+        <label for="ItemId">Select Item</label>
+        <select id="ItemId" name="itemId" class="form-control" required>
+            <option value="">Select Item</option>
+            @foreach (var item in ViewBag.Items)
+            {
+                <option value="@item.ItemId">@item.ItemName</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Quantity">Quantity</label>
+        <input type="number" id="Quantity" name="quantity" class="form-control" required min="1" />
+    </div>
+
+    <div class="form-group">
+        <label for="TransactionType">Transaction Type</label>
+        <select id="TransactionType" name="transactionType" class="form-control" required>
+            <option value="IN">Add Stock (IN)</option>
+            <option value="OUT">Remove Stock (OUT)</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<h3>Transaction History</h3>
+<a href="@Url.Action("TransactionHistory", "POS")" class="btn btn-secondary">View All Transactions</a>

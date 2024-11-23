@@ -1,0 +1,31 @@
+﻿@model inventory_management_system.Models.Item
+
+<h2>Edit Item</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ItemId" />
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12 form-group">
+            <label for="ItemName">Name</label>
+            <input asp-for="ItemName" class="form-control" id="ItemName" />
+        </div>
+        <div class="col-md-6 col-sm-12 form-group">
+            <label for="ItemDescription">Description</label>
+            <textarea asp-for="ItemDescription" class="form-control" id="ItemDescription"></textarea>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12 form-group">
+            <label for="Quantity">Quantity</label>
+            <input asp-for="Quantity" class="form-control" id="Quantity" />
+        </div>
+        <div class="col-md-6 col-sm-12 form-group">
+            <label for="UnitPrice">Unit Price</label>
+            <input asp-for="UnitPrice" class="form-control" id="UnitPrice" />
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Save Changes</button>
+</form>

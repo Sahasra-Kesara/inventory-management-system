@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Reports";
+}
+
+<h1>Select a Report</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <a href="@Url.Action("InventoryAuditReport")" class="btn btn-primary btn-block">Inventory Audit Report</a>
+    </div>
+    <div class="col-md-4">
+        <a href="@Url.Action("StockMovementReport")" class="btn btn-primary btn-block">Stock Movement Report</a>
+    </div>
+    <div class="col-md-4">
+        <a href="@Url.Action("InventoryValueReport")" class="btn btn-primary btn-block">Inventory Value Report</a>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <a href="@Url.Action("SupplierTransactionReport")" class="btn btn-primary btn-block">Supplier Transaction Report</a>
+    </div>
+    <div class="col-md-4">
+        <a href="@Url.Action("StockLevelReport")" class="btn btn-primary btn-block">Stock Level Report</a>
+    </div>
+    <div class="col-md-4">
+        <a href="@Url.Action("TransactionReport")" class="btn btn-primary btn-block">Transaction Report</a>
+    </div>
+</div>

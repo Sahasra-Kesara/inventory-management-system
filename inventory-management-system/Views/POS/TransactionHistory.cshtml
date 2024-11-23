@@ -1,0 +1,31 @@
+﻿@model IEnumerable<inventory_management_system.Models.InventoryTransaction>
+
+@{
+    ViewData["Title"] = "Transaction History";
+}
+
+<h2>Transaction History</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Transaction ID</th>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Transaction Type</th>
+            <th>Transaction Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in Model)
+        {
+            <tr>
+                <td>@transaction.TransactionId</td>
+                <td>@transaction.Item.ItemName</td>
+                <td>@transaction.Quantity</td>
+                <td>@transaction.TransactionType</td>
+                <td>@transaction.TransactionDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

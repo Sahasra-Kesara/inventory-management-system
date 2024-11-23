@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model inventory_management_system.Models.Supplier
+
+<h2>Edit Supplier</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="SupplierId" />
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="SupplierName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Contact Info</label>
+        <textarea asp-for="ContactInfo" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-warning">Save Changes</button>
+</form>

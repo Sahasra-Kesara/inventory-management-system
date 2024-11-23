@@ -1,0 +1,33 @@
+﻿@model IEnumerable<inventory_management_system.Models.InventoryTransaction>
+
+@{
+    ViewData["Title"] = "Inventory Audit Report";
+}
+
+<h1>Inventory Audit Report</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Transaction Date</th>
+            <th>Item Name</th>
+            <th>Transaction Type</th>
+            <th>Quantity</th>
+            <th>Supplier</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in Model)
+        {
+            <tr>
+                <td>@transaction.TransactionDate</td>
+                <td>@transaction.Item.ItemName</td>
+                <td>@transaction.TransactionType</td>
+                <td>@transaction.Quantity</td>
+                <td>@transaction.Supplier?.SupplierName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index")" class="btn btn-secondary">Back to Reports</a>

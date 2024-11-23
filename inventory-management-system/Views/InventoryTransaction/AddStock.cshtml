@@ -1,0 +1,36 @@
+﻿@model inventory_management_system.Models.InventoryTransaction
+
+<h2>Add Stock</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="ItemId">Item</label>
+        <select id="ItemId" name="ItemId" class="form-control">
+            @foreach (var item in ViewBag.Items as List<inventory_management_system.Models.Item>)
+            {
+                <option value="@item.ItemId">@item.ItemName</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="SupplierId">Supplier</label>
+        <select id="SupplierId" name="SupplierId" class="form-control">
+            @foreach (var supplier in ViewBag.Suppliers as List<inventory_management_system.Models.Supplier>)
+            {
+                <option value="@supplier.SupplierId">@supplier.SupplierName</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Quantity">Quantity</label>
+        <input type="number" class="form-control" id="Quantity" name="Quantity" required min="1" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Add Stock</button>
+    </div>
+</form>

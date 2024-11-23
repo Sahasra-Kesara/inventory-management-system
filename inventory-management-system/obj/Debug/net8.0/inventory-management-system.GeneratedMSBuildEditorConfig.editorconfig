@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = inventory_management_system
+build_property.RootNamespace = inventory_management_system
+build_property.ProjectDir = D:\StackNet Projects\dotnetpractice\SelfLearn\inventory-management-system\inventory-management-system\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\StackNet Projects\dotnetpractice\SelfLearn\inventory-management-system\inventory-management-system
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/InventoryTransaction/AddStock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5VHJhbnNhY3Rpb25cQWRkU3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/InventoryTransaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5VHJhbnNhY3Rpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/InventoryTransaction/RemoveStock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5VHJhbnNhY3Rpb25cUmVtb3ZlU3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Item/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Item/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Item/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/POS/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/POS/TransactionHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TXFRyYW5zYWN0aW9uSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/InventoryAuditReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbnZlbnRvcnlBdWRpdFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/InventoryValueReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbnZlbnRvcnlWYWx1ZVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/StockLevelReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xTdG9ja0xldmVsUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/StockMovementReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xTdG9ja01vdmVtZW50UmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/SupplierTransactionReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xTdXBwbGllclRyYW5zYWN0aW9uUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Reports/TransactionReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xUcmFuc2FjdGlvblJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/StackNet Projects/dotnetpractice/SelfLearn/inventory-management-system/inventory-management-system/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fdphx5xfhv
